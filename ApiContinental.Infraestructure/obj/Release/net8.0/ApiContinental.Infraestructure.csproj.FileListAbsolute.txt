@@ -15,3 +15,6 @@ C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.
 C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ref\ApiContinental.Infraestructure.dll
 C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Application.dll
 C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Application.pdb
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Infraestructure.runtimeconfig.json
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiContinental.Infraestructure.sourcelink.json
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiContinental.Infraestructure.genruntimeconfig.cache

@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using ApiContinental.Application.Interfaces;
 using ApiContinental.Application.Services;
+using ApiContinental.Infraestructure.Persistence.Repositories;
 
 namespace ApiContinental.Infraestructure
 {
@@ -23,6 +24,7 @@ namespace ApiContinental.Infraestructure
             // Agregar DbContext EF con SQL
             //services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("CnxBDUSAT")));
             services.AddScoped<IImcService, ImcService>(); 
+            services.AddScoped<IImcCategoriesRepository, ImcCategoriesRepository>();
             return services;
         }
     }

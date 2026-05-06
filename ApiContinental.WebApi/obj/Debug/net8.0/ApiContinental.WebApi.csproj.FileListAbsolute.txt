@@ -169,3 +169,4 @@ C:\ProyectosUsat\ApiContinental\ApiContinental.WebApi\bin\Debug\net8.0\Asp.Versi
 C:\ProyectosUsat\ApiContinental\ApiContinental.WebApi\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 C:\ProyectosUsat\ApiContinental\ApiContinental.WebApi\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
 C:\ProyectosUsat\ApiContinental\ApiContinental.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\ProyectosUsat\ApiContinental\ApiContinental.WebApi\obj\Debug\net8.0\ApiContinental.WebApi.sourcelink.json

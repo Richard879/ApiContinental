@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiContinental.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa1e96ad2285f4d75172564c6962a1c20d2c78e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiContinental.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiContinental.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

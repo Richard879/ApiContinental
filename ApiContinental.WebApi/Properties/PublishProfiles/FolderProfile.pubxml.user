@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\ProyectosUsat\ApiContinental\ApiContinental.WebApi\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2026-05-06T18:28:03.3149644Z||;True|2026-05-06T13:10:44.7570703-05:00||;True|2026-05-06T12:48:03.9026909-05:00||;False|2026-05-06T12:47:38.8737746-05:00||;True|2026-05-06T12:46:36.9842520-05:00||;True|2026-05-06T12:23:30.5336923-05:00||;True|2026-05-06T12:14:26.2315500-05:00||;True|2026-05-06T12:12:39.1227760-05:00||;True|2026-05-06T11:59:55.2364338-05:00||;True|2026-05-05T20:56:34.9522384-05:00||;True|2026-05-05T20:50:26.7417819-05:00||;False|2026-05-05T20:50:11.7595843-05:00||;True|2026-05-05T20:49:41.7601140-05:00||;True|2026-05-05T20:11:12.1634341-05:00||;True|2026-05-05T20:06:26.9164136-05:00||;True|2026-05-05T20:05:06.8109257-05:00||;True|2026-05-05T19:58:34.9124485-05:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

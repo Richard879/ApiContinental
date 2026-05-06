@@ -16,22 +16,7 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
 // Añadir Key Vault al Configuration (usa Managed Identity / DefaultAzureCredential)
-builder.Configuration.AddAzureKeyVaultFromEnvironment();
-
-// Registrar servicios de infraestructura (DbContext, repositorios, servicios)
-// Leer connection string desde Key Vault (clave: DbConnectionString)
-//var connectionString = builder.Configuration["DbConnectionString"];
-//if (string.IsNullOrEmpty(connectionString))
-//{
-//    throw new InvalidOperationException("No se encontró 'DbConnectionString' en la configuración (Key Vault).");
-//}
-
-//// EF Core
-//builder.Services.AddDbContext<AppDbContext>(options =>
-//    options.UseSqlServer(connectionString));
-
-//// Servicios de aplicación
-//builder.Services.AddScoped<IImcService, ImcService>();
+builder.Configuration.AddAzureKeyVaultFromEnvironment(builder.Configuration);
 
 builder.Services.AddInfrastructureServices(builder.Configuration);
 
@@ -95,6 +80,30 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("allowed", policy =>
+    {
+        var corsOrigins = builder.Configuration["Cors:AllowedOrigins"]
+            ?? throw new InvalidOperationException("The Cors__AllowedOrigins environment variable is not set");
+
+        if (corsOrigins == "*")
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        }
+        else
+        {
+            var allowedOrigins = corsOrigins.Split(';', StringSplitOptions.RemoveEmptyEntries);
+            policy.WithOrigins(allowedOrigins)
+                  .AllowAnyHeader()
+                  .AllowAnyMethod()
+                  .AllowCredentials();
+        }
+    });
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -104,7 +113,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
+app.UseCors("allowed");
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

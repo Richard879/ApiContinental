@@ -9,3 +9,4 @@ C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Release\net8.0\ApiCont
 C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Release\net8.0\refint\ApiContinental.Domain.dll
 C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Release\net8.0\ApiContinental.Domain.pdb
 C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Release\net8.0\ref\ApiContinental.Domain.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Release\net8.0\ApiContinental.Domain.sourcelink.json

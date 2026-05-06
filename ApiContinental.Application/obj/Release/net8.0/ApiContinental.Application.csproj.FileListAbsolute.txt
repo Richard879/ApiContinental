@@ -13,3 +13,4 @@ C:\ProyectosUsat\ApiContinental\ApiContinental.Application\obj\Release\net8.0\Ap
 C:\ProyectosUsat\ApiContinental\ApiContinental.Application\obj\Release\net8.0\refint\ApiContinental.Application.dll
 C:\ProyectosUsat\ApiContinental\ApiContinental.Application\obj\Release\net8.0\ApiContinental.Application.pdb
 C:\ProyectosUsat\ApiContinental\ApiContinental.Application\obj\Release\net8.0\ref\ApiContinental.Application.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Application\obj\Release\net8.0\ApiContinental.Application.sourcelink.json

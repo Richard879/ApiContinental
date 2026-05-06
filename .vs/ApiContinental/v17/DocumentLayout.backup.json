@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ProyectosUsat\\ApiContinental\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7939E1A4-7F3C-46B2-B0C8-0A344D29EB48}|ApiContinental.WebApi\\ApiContinental.WebApi.csproj|c:\\proyectosusat\\apicontinental\\apicontinental.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7939E1A4-7F3C-46B2-B0C8-0A344D29EB48}|ApiContinental.WebApi\\ApiContinental.WebApi.csproj|solutionrelative:apicontinental.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7939E1A4-7F3C-46B2-B0C8-0A344D29EB48}|ApiContinental.WebApi\\ApiContinental.WebApi.csproj|c:\\proyectosusat\\apicontinental\\apicontinental.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7939E1A4-7F3C-46B2-B0C8-0A344D29EB48}|ApiContinental.WebApi\\ApiContinental.WebApi.csproj|solutionrelative:apicontinental.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD2BD3-B144-4950-8141-405CC6CDC7C1}|ApiContinental.Infraestructure\\ApiContinental.Infraestructure.csproj|c:\\proyectosusat\\apicontinental\\apicontinental.infraestructure\\keyvault\\configurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD2BD3-B144-4950-8141-405CC6CDC7C1}|ApiContinental.Infraestructure\\ApiContinental.Infraestructure.csproj|solutionrelative:apicontinental.infraestructure\\keyvault\\configurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7939E1A4-7F3C-46B2-B0C8-0A344D29EB48}|ApiContinental.WebApi\\ApiContinental.WebApi.csproj|c:\\proyectosusat\\apicontinental\\apicontinental.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7939E1A4-7F3C-46B2-B0C8-0A344D29EB48}|ApiContinental.WebApi\\ApiContinental.WebApi.csproj|solutionrelative:apicontinental.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7939E1A4-7F3C-46B2-B0C8-0A344D29EB48}|ApiContinental.WebApi\\ApiContinental.WebApi.csproj|c:\\proyectosusat\\apicontinental\\apicontinental.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7939E1A4-7F3C-46B2-B0C8-0A344D29EB48}|ApiContinental.WebApi\\ApiContinental.WebApi.csproj|solutionrelative:apicontinental.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD2BD3-B144-4950-8141-405CC6CDC7C1}|ApiContinental.Infraestructure\\ApiContinental.Infraestructure.csproj|c:\\proyectosusat\\apicontinental\\apicontinental.infraestructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD2BD3-B144-4950-8141-405CC6CDC7C1}|ApiContinental.Infraestructure\\ApiContinental.Infraestructure.csproj|solutionrelative:apicontinental.infraestructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ApiContinental.WebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "ApiContinental.WebApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-06T18:14:16.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiContinental.WebApi\\appsettings.json",
+              "ToolTip": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.WebApi\\appsettings.json",
+              "RelativeToolTip": "ApiContinental.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-06T18:14:06.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigurationExtensions.cs",
+              "DocumentMoniker": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.Infraestructure\\KeyVault\\ConfigurationExtensions.cs",
+              "RelativeDocumentMoniker": "ApiContinental.Infraestructure\\KeyVault\\ConfigurationExtensions.cs",
+              "ToolTip": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.Infraestructure\\KeyVault\\ConfigurationExtensions.cs",
+              "RelativeToolTip": "ApiContinental.Infraestructure\\KeyVault\\ConfigurationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T16:58:16.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "ApiContinental.WebApi\\Program.cs",
+              "ToolTip": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.WebApi\\Program.cs",
+              "RelativeToolTip": "ApiContinental.WebApi\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T17:25:22.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.Infraestructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "ApiContinental.Infraestructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.Infraestructure\\DependencyInjection.cs",
+              "RelativeToolTip": "ApiContinental.Infraestructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T17:24:24.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ApiContinental.WebApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\ProyectosUsat\\ApiContinental\\ApiContinental.WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ApiContinental.WebApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwC0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T17:33:18.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

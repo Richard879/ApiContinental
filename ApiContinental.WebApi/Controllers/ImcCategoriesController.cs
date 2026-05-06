@@ -1,7 +1,6 @@
-﻿using ApiContinental.Domain.Entities;
-using ApiContinental.Infraestructure.Configurations.Contexts;
+﻿using ApiContinental.Application.Interfaces;
+using ApiContinental.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace ApiContinental.WebApi.Controllers
 {
@@ -9,20 +8,28 @@ namespace ApiContinental.WebApi.Controllers
     [ApiController]
     public class ImcCategoriesController : ControllerBase
     {
-        private readonly AppDbContext _db;
+        private readonly IImcCategoriesRepository _imcCategoriesRepository;
 
-        public ImcCategoriesController(AppDbContext db)
+        public ImcCategoriesController(IImcCategoriesRepository imcCategoriesRepository)
         {
-            _db = db;
+            _imcCategoriesRepository = imcCategoriesRepository;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll() => Ok(await _db.ImcCategories.ToListAsync());
+        public async Task<IActionResult> GetAll()
+        {
+            var response = await _imcCategoriesRepository.GetAllAsync();
+            if (response == null)
+            {
+                return NotFound();
+            }
+            return Ok(response);
+        }
 
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> Get(Guid id)
         {
-            var cat = await _db.ImcCategories.FindAsync(id);
+            var cat = await _imcCategoriesRepository.Get(id);
             if (cat == null) return NotFound();
             return Ok(cat);
         }
@@ -31,32 +38,30 @@ namespace ApiContinental.WebApi.Controllers
         public async Task<IActionResult> Create([FromBody] ImcCategory category)
         {
             category.Id = Guid.NewGuid();
-            _db.ImcCategories.Add(category);
-            await _db.SaveChangesAsync();
+            await _imcCategoriesRepository.Create(category);
             return CreatedAtAction(nameof(Get), new { id = category.Id }, category);
         }
 
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> Update(Guid id, [FromBody] ImcCategory category)
         {
-            var exist = await _db.ImcCategories.FindAsync(id);
+            var exist = await _imcCategoriesRepository.Get(id);
             if (exist == null) return NotFound();
             exist.MinAge = category.MinAge;
             exist.MaxAge = category.MaxAge;
             exist.MinImc = category.MinImc;
             exist.MaxImc = category.MaxImc;
             exist.Description = category.Description;
-            await _db.SaveChangesAsync();
+            await _imcCategoriesRepository.Update(exist);
             return NoContent();
         }
 
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            var exist = await _db.ImcCategories.FindAsync(id);
+            var exist = await _imcCategoriesRepository.Get(id);
             if (exist == null) return NotFound();
-            _db.ImcCategories.Remove(exist);
-            await _db.SaveChangesAsync();
+            await _imcCategoriesRepository.Delete(id);
             return NoContent();
         }
     }
