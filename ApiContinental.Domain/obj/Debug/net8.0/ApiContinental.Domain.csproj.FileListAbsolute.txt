@@ -1,0 +1,11 @@
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Debug\net8.0\ApiContinental.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Debug\net8.0\ApiContinental.Domain.AssemblyInfoInputs.cache
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Debug\net8.0\ApiContinental.Domain.AssemblyInfo.cs
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Debug\net8.0\ApiContinental.Domain.csproj.CoreCompileInputs.cache
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\bin\Debug\net8.0\ApiContinental.Domain.deps.json
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\bin\Debug\net8.0\ApiContinental.Domain.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\bin\Debug\net8.0\ApiContinental.Domain.pdb
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Debug\net8.0\ApiContinental.Domain.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Debug\net8.0\refint\ApiContinental.Domain.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Debug\net8.0\ApiContinental.Domain.pdb
+C:\ProyectosUsat\ApiContinental\ApiContinental.Domain\obj\Debug\net8.0\ref\ApiContinental.Domain.dll

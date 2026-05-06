@@ -1,0 +1,17 @@
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Infraestructure.deps.json
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Infraestructure.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Infraestructure.pdb
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Domain.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Domain.pdb
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiContinental.Infraestructure.csproj.AssemblyReference.cache
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiContinental.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiContinental.Infraestructure.AssemblyInfoInputs.cache
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiContinental.Infraestructure.AssemblyInfo.cs
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiContinental.Infraestructure.csproj.CoreCompileInputs.cache
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiConti.9B6AF235.Up2Date
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiContinental.Infraestructure.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\refint\ApiContinental.Infraestructure.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ApiContinental.Infraestructure.pdb
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\obj\Release\net8.0\ref\ApiContinental.Infraestructure.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Application.dll
+C:\ProyectosUsat\ApiContinental\ApiContinental.Infraestructure\bin\Release\net8.0\ApiContinental.Application.pdb

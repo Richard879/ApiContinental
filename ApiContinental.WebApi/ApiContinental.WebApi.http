@@ -1,0 +1,6 @@
+@ApiContinental.WebApi_HostAddress = http://localhost:5208
+
+GET {{ApiContinental.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
