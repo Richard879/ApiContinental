@@ -25,6 +25,7 @@ namespace ApiContinental.Infraestructure
             //services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("CnxBDUSAT")));
             services.AddScoped<IImcService, ImcService>(); 
             services.AddScoped<IImcCategoriesRepository, ImcCategoriesRepository>();
+            services.AddScoped<IImcRecordRepository, ImcRecordRepository>();
             return services;
         }
     }

@@ -9,5 +9,6 @@ namespace ApiContinental.Application.Interfaces
         Task<bool> Create(ImcCategory category);
         Task<bool> Update(ImcCategory category);
         Task<bool> Delete(Guid id);
+        Task<ImcCategory> GetCategoryForImcAsync(int age, decimal imc);
     }
 }

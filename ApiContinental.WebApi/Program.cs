@@ -1,13 +1,9 @@
-using ApiContinental.Application.Interfaces;
-using ApiContinental.Application.Services;
-using ApiContinental.Infraestructure.Configurations.Contexts;
+using ApiContinental.Infraestructure;
 using ApiContinental.Infraestructure.KeyVault;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using ApiContinental.Infraestructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

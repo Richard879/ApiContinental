@@ -50,5 +50,13 @@ namespace ApiContinental.Infraestructure.Persistence.Repositories
             _context.ImcCategories.Remove(exist);
             return await _context.SaveChangesAsync() > 0;
         }
+
+        public async Task<ImcCategory> GetCategoryForImcAsync(int age, decimal imc)
+        {
+            return await _context.ImcCategories
+                .FirstOrDefaultAsync(c =>
+                    c.MinAge <= age && age <= c.MaxAge &&
+                    c.MinImc <= imc && imc < c.MaxImc);
+        }
     }
 }
